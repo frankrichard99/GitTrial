@@ -41,7 +41,7 @@ function updateTimer() {
 
   // Check if the target time has passed
   if (difference <= 0) {
-    clearInterval(Updatetime); // Stop the timer
+    clearInterval(Updatetimer); // Stop the timer
     document.getElementById("endalert").textContent = "The giveaway has ended!";
     return;
   }
